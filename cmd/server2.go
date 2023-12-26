@@ -51,6 +51,8 @@ func main() {
 	}
 
 	s := "My name"
+	fmt.Println("len(s)", len(s))
+	fmt.Println("len(s) rune", len([]rune(s)))
 	for i := 0; i < len(s); i++ {
 		b := s[i]
 		fmt.Println("b", b)
